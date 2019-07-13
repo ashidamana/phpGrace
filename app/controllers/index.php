@@ -96,5 +96,9 @@ class indexController extends grace {
         $result = $this->db->order('id desc')->fetchAll();
         p($result);
     }
+    
+    public function test9() {
+        
+    }
 
 }
